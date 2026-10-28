@@ -125,3 +125,14 @@ input[type=search]{font:400 1rem/1.4 var(--sans);padding:.6rem .8rem;border:1px 
 .fts input{flex:1;min-width:0}
 .fts button{font:500 1rem/1.4 var(--sans);padding:.6rem 1rem;border:1px solid var(--ink);border-radius:4px;background:var(--ink);color:var(--paper);cursor:pointer}
 .results mark{background:color-mix(in srgb,var(--link) 22%,transparent);color:var(--ink);border-radius:2px;padding:0 .1em}
+
+/* speeches */
+.piece .kicker{font:500 .85rem/1.4 var(--sans);margin:0 0 .6rem}
+.piece .kicker a{color:var(--muted);text-decoration:none}.piece .kicker a:hover{color:var(--ink)}
+.piece .occ{font:500 1rem/1.45 var(--sans);color:var(--ink);margin:1rem 0 0}
+.piece .occ.sub{font-weight:400;color:var(--muted);margin-top:.3rem}
+.piece .occ+.meta{margin-top:.35rem}
+.list.sp .occ{font:500 .92rem/1.45 var(--sans);color:var(--ink)}
+.list.sp .when{font:400 .85rem/1.4 var(--sans);color:var(--muted)}
+.list.sp .sep,.piece .meta .sep{color:var(--rule);margin:0 .3rem}
+.list li>.tag{justify-self:start;margin-left:0}
