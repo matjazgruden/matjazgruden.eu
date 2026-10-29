@@ -136,3 +136,11 @@ input[type=search]{font:400 1rem/1.4 var(--sans);padding:.6rem .8rem;border:1px 
 .list.sp .when{font:400 .85rem/1.4 var(--sans);color:var(--muted)}
 .list.sp .sep,.piece .meta .sep{color:var(--rule);margin:0 .3rem}
 .list li>.tag{justify-self:start;margin-left:0}
+
+/* featured piece on the homepage */
+.feat{border-top:3px solid var(--his);padding-top:1.1rem;max-width:var(--measure)}
+.feat .kick{font:600 .8rem/1.3 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--his);margin:0 0 .5rem}
+.feat h2{font:600 clamp(1.5rem,3.4vw,2rem)/1.15 var(--serif);letter-spacing:-.015em;margin:0;text-wrap:balance}
+.feat h2 a{color:var(--ink);text-decoration:none}.feat h2 a:hover{text-decoration:underline}
+.feat p{margin:.75rem 0 0}
+.feat .more{font:500 .95rem/1.4 var(--sans)}
