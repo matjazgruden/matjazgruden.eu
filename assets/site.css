@@ -157,3 +157,9 @@ input[type=search]{font:400 1rem/1.4 var(--sans);padding:.6rem .8rem;border:1px 
   .intro.has-photo{grid-template-columns:1fr;gap:1.75rem}
   .intro.has-photo .portrait{order:-1;max-width:11rem}
 }
+/* follow / RSS */
+footer.site .follow{margin:.4rem 0 0}
+.feed{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem .75rem}
+.feed code{font:500 .95rem/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--paper);border:1px solid var(--rule);border-radius:4px;padding:.35rem .6rem;overflow-wrap:anywhere;user-select:all}
+.feed button{font:500 .9rem/1 var(--sans);color:var(--paper);background:var(--link);border:0;border-radius:4px;padding:.5rem .85rem;cursor:pointer}
+.prose .sec{margin:1.8em 0 .5em}

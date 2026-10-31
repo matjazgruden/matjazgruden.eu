@@ -87,3 +87,13 @@
     try{history.replaceState(null,'','?q='+encodeURIComponent(q))}catch(_){}
     run(q)});
 })();
+/* copy-to-clipboard buttons (Follow page) */
+(function(){
+  document.querySelectorAll('[data-copy]').forEach(function(b){
+    b.addEventListener('click',function(){
+      var t=b.getAttribute('data-copy'),label=b.textContent;
+      function done(){b.textContent=b.getAttribute('data-done')||'Copied';setTimeout(function(){b.textContent=label},1800)}
+      if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(done,function(){})}
+    });
+  });
+})();
