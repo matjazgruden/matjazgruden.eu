@@ -55,8 +55,9 @@ VIDEOS = [
          place_en="", place_sl=""),
     dict(date="2017-10-16", source="youtube", id="MTmsD_0lDnU",
          title="The Ups and Downs of Liberal Democracy: Will History Ever End?",
-         occ_en="Talk", occ_sl="Nastop",
-         place_en="", place_sl=""),
+         occ_en="Talk, seminar of the Moscow School of Civic Education",
+         occ_sl="Nastop, seminar Moskovske šole državljanske vzgoje",
+         place_en="Warsaw", place_sl="Varšava"),
 ]
 
 def fmt_date(d, lang):
