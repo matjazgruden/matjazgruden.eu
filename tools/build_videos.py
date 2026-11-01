@@ -164,7 +164,7 @@ def page(lang):
 <meta property="og:description" content="{e(desc)}">
 <meta property="og:url" content="{url}">
 <meta property="og:site_name" content="Matjaž Gruden">
-<meta property="og:image" content="{SITE}/assets/share-3.jpg">
+<meta property="og:image" content="{SITE}/assets/share-4.jpg">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta property="og:locale" content="{locale}">
