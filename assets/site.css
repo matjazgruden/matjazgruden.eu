@@ -163,3 +163,14 @@ footer.site .follow{margin:.4rem 0 0}
 .feed code{font:500 .95rem/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--paper);border:1px solid var(--rule);border-radius:4px;padding:.35rem .6rem;overflow-wrap:anywhere;user-select:all}
 .feed button{font:500 .9rem/1 var(--sans);color:var(--paper);background:var(--link);border:0;border-radius:4px;padding:.5rem .85rem;cursor:pointer}
 .prose .sec{margin:1.8em 0 .5em}
+
+/* videos */
+.vid{position:relative;aspect-ratio:16/9;margin:.8rem 0 0;border-radius:4px;overflow:hidden;background:#000}
+.vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.list.vids{gap:2.6rem}
+.list.vids h3{font:600 1.25rem/1.3 var(--serif);margin:0;color:var(--ink)}
+.vlinks{font:500 .9rem/1.4 var(--sans)!important;margin:.5rem 0 0!important}
+.vlinks .sep{color:var(--rule);margin:0 .4rem}
+.piece .vid{margin-top:1.6rem}
+.piece .vid+.vlinks{color:var(--muted)}
+.list .vlinks a{font:500 .9rem/1.4 var(--sans);color:var(--link);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.18em}
