@@ -20,6 +20,13 @@ MONTHS_EN = ["January", "February", "March", "April", "May", "June", "July", "Au
 
 # Newest first. date: YYYY-MM-DD or YYYY-MM. source: youtube | vimeo | arnes (embed = full iframe src).
 VIDEOS = [
+    dict(date="2025-11-18", source="arnes", id="tm98mqtkb7d8",
+         embed="https://video.arnes.si/embed/tm98mqtkb7d8", watch="https://video.arnes.si/en/watch/tm98mqtkb7d8",
+         title="The Way Forward",
+         occ_en="Speech, “The Way Forward”, closing conference of the European Year of Digital Citizenship Education 2025",
+         occ_sl="Govor, »The Way Forward«, zaključna konferenca evropskega leta izobraževanja za digitalno državljanstvo 2025",
+         place_en="Ljubljana, Slovenia", place_sl="Ljubljana",
+         text="speeches/2025/european-year-of-digital-citizenship-education.html"),
     dict(date="2024-09-24", source="youtube", id="e-AiKbFBtxQ",
          title="Young People, Democracy and Climate Action",
          occ_en="Opening speech, Symposium “Young people, democracy and climate action”, EU–Council of Europe Youth Partnership",
@@ -45,6 +52,10 @@ VIDEOS = [
          title="Edu4Europe",
          occ_en="Opening speech, Edu4Europe, EU–Council of Europe Youth Partnership",
          occ_sl="Uvodni govor, Edu4Europe, mladinsko partnerstvo EU in Sveta Evrope",
+         place_en="", place_sl=""),
+    dict(date="2017-10-16", source="youtube", id="MTmsD_0lDnU",
+         title="The Ups and Downs of Liberal Democracy: Will History Ever End?",
+         occ_en="Talk", occ_sl="Nastop",
          place_en="", place_sl=""),
 ]
 
