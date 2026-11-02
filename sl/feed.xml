@@ -6,7 +6,14 @@
 <description>Razgovori o demokraciji, Matjaž Gruden.</description>
 <language>sl</language>
 <atom:link href="https://matjazgruden.eu/sl/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 22 Jun 2026 08:00:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 02 Nov 2026 08:00:00 +0000</lastBuildDate>
+<item>
+<title>Naklepna bebavizacija države</title>
+<link>https://matjazgruden.eu/sl/clanki/novejse/naklepna-bebavizacija-drzave.html</link>
+<guid isPermaLink="true">https://matjazgruden.eu/sl/clanki/novejse/naklepna-bebavizacija-drzave.html</guid>
+<pubDate>Mon, 02 Nov 2026 08:00:00 +0000</pubDate>
+<description>Recite, kar hočete, ampak sam menim, da si naš retroaktivno nikoli pravnomočno obsojeni predsednik Državnega zbora zasluži doktorat. OK, častnega, da…</description>
+</item>
 <item>
 <title>Five Ingredients of Democracy</title>
 <link>https://matjazgruden.eu/speeches/2026/caux-democracy-forum.html</link>
@@ -209,13 +216,6 @@
 <guid isPermaLink="true">https://matjazgruden.eu/sl/clanki/2025/schrodingerjev-genocid.html</guid>
 <pubDate>Sat, 14 Jun 2025 08:00:00 +0000</pubDate>
 <description>Za velik del slovenske javnosti, vključno s predsednico republike, se v Gazi pred našimi očmi odvija genocid nad palestinskim prebivalstvom. Za druge, vključno…</description>
-</item>
-<item>
-<title>Be Critical Like Hell</title>
-<link>https://matjazgruden.eu/speeches/2025/global-forum-on-higher-education.html</link>
-<guid isPermaLink="true">https://matjazgruden.eu/speeches/2025/global-forum-on-higher-education.html</guid>
-<pubDate>Tue, 03 Jun 2025 08:00:00 +0000</pubDate>
-<description>Villano has already extended the official thanks on behalf of the Council of Europe, so I could skip that part—but still, I want to once again thank our…</description>
 </item>
 </channel>
 </rss>
