@@ -55,6 +55,7 @@ main:not(.home){gap:1.5rem}
 .mk.untr{opacity:.35}
 .tl-cap{margin:.9rem 0 0 calc(var(--lab) + .75rem);font:400 .95rem/1.4 var(--sans);color:var(--muted);min-height:2.8em}
 .tl-cap b{color:var(--ink);font-weight:600}
+.coll-intro{max-width:var(--measure);margin:1.4rem 0 0;color:var(--muted);line-height:1.55}
 .legend{list-style:none;padding:0;margin:1rem 0 0;display:flex;flex-wrap:wrap;gap:.4rem 1.4rem;font:400 .9rem/1.4 var(--sans);color:var(--muted)}
 .legend a{color:var(--ink);text-decoration:none}.legend a:hover{text-decoration:underline}
 .sw{display:inline-block;width:.6rem;height:.85rem;border-radius:1px;margin-right:.45rem;vertical-align:-.05rem;flex:none}

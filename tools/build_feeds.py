@@ -16,11 +16,11 @@ LIMIT = 30
 FEEDS = {
     "en": dict(out="feed.xml", globs=["columns/**/*.html", "speeches/**/*.html"],
                title="Matjaž Gruden", lang="en",
-               desc="Conversation and ideas on democracy and Europe by Matjaž Gruden.",
+               desc="Conversations on democracy by Matjaž Gruden.",
                home=SITE + "/"),
     "sl": dict(out="sl/feed.xml", globs=["sl/clanki/**/*.html", "speeches/**/*.html"],
                title="Matjaž Gruden", lang="sl",
-               desc="Pogovori in ideje o demokraciji in Evropi, Matjaž Gruden.",
+               desc="Razgovori o demokraciji, Matjaž Gruden.",
                home=SITE + "/sl/index.html"),
 }
 
