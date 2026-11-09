@@ -6,7 +6,14 @@
 <description>Conversations on democracy by Matjaž Gruden.</description>
 <language>en</language>
 <atom:link href="https://matjazgruden.eu/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 02 Nov 2026 08:00:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 09 Nov 2026 08:00:00 +0000</lastBuildDate>
+<item>
+<title>The Politician Without a Lid</title>
+<link>https://matjazgruden.eu/columns/recent/the-politician-without-a-lid.html</link>
+<guid isPermaLink="true">https://matjazgruden.eu/columns/recent/the-politician-without-a-lid.html</guid>
+<pubDate>Mon, 09 Nov 2026 08:00:00 +0000</pubDate>
+<description>The British comedian Jake Lambert, who is also known as the joke machine, has an excellent series of short videos in which, as a historian…</description>
+</item>
 <item>
 <title>The Premeditated Dumbing-Down of the State</title>
 <link>https://matjazgruden.eu/columns/recent/premeditated-dumbing-down-of-the-state.html</link>
@@ -209,13 +216,6 @@
 <guid isPermaLink="true">https://matjazgruden.eu/columns/2025/the-party-of-progress.html</guid>
 <pubDate>Mon, 30 Jun 2025 08:00:00 +0000</pubDate>
 <description>In August 1972, the Danish lawyer and anti-tax crusader Mogens Glistrup founded a new political party, which he named Fremskridtspartiet, the Progress Party.…</description>
-</item>
-<item>
-<title>Schrödinger's Genocide</title>
-<link>https://matjazgruden.eu/columns/2025/schrodinger-s-genocide.html</link>
-<guid isPermaLink="true">https://matjazgruden.eu/columns/2025/schrodinger-s-genocide.html</guid>
-<pubDate>Sat, 14 Jun 2025 08:00:00 +0000</pubDate>
-<description>For much of the Slovenian public, including the President of the Republic, what is unfolding before our eyes in Gaza is a genocide of the Palestinian…</description>
 </item>
 </channel>
 </rss>
