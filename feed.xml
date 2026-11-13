@@ -6,7 +6,14 @@
 <description>Conversations on democracy by Matjaž Gruden.</description>
 <language>en</language>
 <atom:link href="https://matjazgruden.eu/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 09 Nov 2026 08:00:00 +0000</lastBuildDate>
+<lastBuildDate>Fri, 13 Nov 2026 08:00:00 +0000</lastBuildDate>
+<item>
+<title>A Serbian Future for Europe?</title>
+<link>https://matjazgruden.eu/columns/recent/a-serbian-future-for-europe.html</link>
+<guid isPermaLink="true">https://matjazgruden.eu/columns/recent/a-serbian-future-for-europe.html</guid>
+<pubDate>Fri, 13 Nov 2026 08:00:00 +0000</pubDate>
+<description>The outcome of the recent elections in Serbia and the fall of the Vučić regime seem to have surprised almost everybody, including the…</description>
+</item>
 <item>
 <title>The Politician Without a Lid</title>
 <link>https://matjazgruden.eu/columns/recent/the-politician-without-a-lid.html</link>
@@ -209,13 +216,6 @@
 <guid isPermaLink="true">https://matjazgruden.eu/columns/2025/oh-what-a-concert.html</guid>
 <pubDate>Tue, 15 Jul 2025 08:00:00 +0000</pubDate>
 <description>My closest colleague is Jewish. Strasbourg has the second-largest Jewish community in France, after Paris. Today my colleague is afraid, for her safety and the…</description>
-</item>
-<item>
-<title>The Party of Progress</title>
-<link>https://matjazgruden.eu/columns/2025/the-party-of-progress.html</link>
-<guid isPermaLink="true">https://matjazgruden.eu/columns/2025/the-party-of-progress.html</guid>
-<pubDate>Mon, 30 Jun 2025 08:00:00 +0000</pubDate>
-<description>In August 1972, the Danish lawyer and anti-tax crusader Mogens Glistrup founded a new political party, which he named Fremskridtspartiet, the Progress Party.…</description>
 </item>
 </channel>
 </rss>
