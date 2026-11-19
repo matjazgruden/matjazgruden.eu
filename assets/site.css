@@ -183,3 +183,8 @@ footer.site .follow{margin:.4rem 0 0}
 .transcript .prose p.q{color:var(--muted)}
 .transcript .spk{font:600 .92rem/1 var(--sans);color:var(--ink)}
 .translation .sep{color:var(--rule);margin:0 .4rem}
+.mfig{margin:.9rem 0 0;max-width:var(--measure)}
+.mfig img{display:block;width:100%;height:auto;border-radius:4px;background:var(--rule)}
+.mfig figcaption{font:400 .78rem/1.4 var(--sans);color:var(--muted);margin:.35rem 0 0}
+.piece .mfig{margin-top:1.4rem}
+.feat .mfig{margin:.2rem 0 .9rem}

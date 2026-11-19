@@ -46,7 +46,9 @@ MEDIA = [
                  "in zakaj usoda OZN in Sveta Evrope ni stvar nekoga drugega."),
          listen="https://val202.rtvslo.si/podkast/vroci-mikrofon/584/175266035",
          audio="https://dts.podtrac.com/redirect.mp3/videoweb.rtvslo.si/podcast/ava_archive11/2026/11/19/MatjaGRA_SLO_LJT_11756209_22869587.mp3",
-         listen_name="Val 202"),
+         listen_name="Val 202",
+         image="assets/media/val202-2026-11-19", image_w=(600, 947), image_ratio=(947, 613),
+         credit_en="Photo: Val 202 / RTV Slovenija", credit_sl="Foto: Val 202 / RTV Slovenija"),
 ]
 
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
@@ -126,6 +128,20 @@ def shell(lang, up, title, desc, url, alt_url, nav_html, main, og_type="website"
 """
 
 
+def figure(m, lang, up, sizes):
+    if not m.get("image"):
+        return ""
+    e = html.escape
+    w1, w2 = m["image_w"]
+    W, H = m["image_ratio"]
+    src = f'{up}{m["image"]}'
+    credit = m["credit_en" if lang == "en" else "credit_sl"]
+    alt = "Matjaž Gruden" 
+    return (f'<figure class="mfig"><img src="{src}-{w2}.jpg" srcset="{src}-{w1}.jpg {w1}w, {src}-{w2}.jpg {w2}w" '
+            f'sizes="{sizes}" width="{W}" height="{H}" alt="{alt}" loading="lazy" decoding="async">'
+            f'<figcaption>{e(credit)}</figcaption></figure>')
+
+
 def en_url(m):
     return f"media/{m['path']}.html"
 
@@ -158,6 +174,7 @@ def card(m, lang, up):
     return (f'<li><h3 class="t">{e(m["title_en" if en else "title_sl"])}</h3>'
             f'<span class="occ">{e(m["outlet_en" if en else "outlet_sl"])}</span>'
             f'<span class="when">{meta}</span>{host}'
+            f'{figure(m, lang, up, "(max-width:760px) 100vw, 38rem")}'
             f'<p class="sum">{e(m["sum_en" if en else "sum_sl"])}</p>'
             f'{audio}'
             f'<p class="vlinks">{"<span class=sep>·</span>".join(links)}</p></li>')
@@ -233,7 +250,7 @@ def transcript_page(m, lang):
     audio = (f'<audio class="aud" controls preload="none" src="{e(m["audio"])}"></audio>' if m.get("audio") else "")
     main = (f'<article class="piece transcript">\n<header>{kicker}<h1>{e(title)}</h1>'
             f'<p class="occ">{e(m["outlet_en" if en else "outlet_sl"])}</p>'
-            f'<p class="meta">{meta}</p>{notes}{audio}</header>\n'
+            f'<p class="meta">{meta}</p>{notes}{figure(m, lang, up, "(max-width:760px) 100vw, 38rem")}{audio}</header>\n'
             f'<div class="prose">\n{paragraphs(m, lang)}\n</div>\n</article>')
     return shell(lang, up, title, desc, url, alt, nav(lang, up, "media", alt_rel), main, og_type="article")
 
