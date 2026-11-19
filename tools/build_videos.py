@@ -124,11 +124,11 @@ def page(lang):
                 "as Director for Democracy at the Council of Europe. Where the text is published on this site, "
                 "it is linked below the video.")
         nav = ('<nav aria-label="Main"><a href="index.html">Home</a><a href="archive.html">Archive</a>'
-               '<a href="speeches.html">Speeches</a><a href="videos.html" aria-current="page">Videos</a>'
+               '<a href="speeches.html">Speeches</a><a href="videos.html" aria-current="page">Videos</a><a href="media.html">Media</a>'
                '<a href="search.html">Search</a><a href="about.html">About</a>'
                '<a class="lang" href="sl/video.html" hreflang="sl">Slovensko</a></nav>')
         home, css, feed, locale = "index.html", "assets/site.css", f"{SITE}/feed.xml", "en_GB"
-        foot = ('<p>© Matjaž Gruden. The columns were first published in Slovenian in the daily Večer.</p>\n'
+        foot = ('<p>© Matjaž Gruden. The columns were first published in Slovenian.</p>\n'
                 '<p class="follow"><a href="subscribe.html">Follow new texts (RSS or email)</a></p>')
         js, skip = "assets/site.js", "Skip to content"
     else:
@@ -137,11 +137,11 @@ def page(lang):
                 "direktor za demokracijo pri Svetu Evrope. Govori so v izvirnem jeziku (večinoma v angleščini); "
                 "kjer je besedilo objavljeno na tej strani, je povezava pod posnetkom.")
         nav = ('<nav aria-label="Glavni meni"><a href="../sl/index.html">Domov</a><a href="../sl/arhiv.html">Arhiv</a>'
-               '<a href="../sl/govori.html">Govori</a><a href="../sl/video.html" aria-current="page">Video</a>'
+               '<a href="../sl/govori.html">Govori</a><a href="../sl/video.html" aria-current="page">Video</a><a href="../sl/mediji.html">Mediji</a>'
                '<a href="../sl/iskanje.html">Iskanje</a><a href="../sl/o-avtorju.html">O avtorju</a>'
                '<a class="lang" href="../videos.html" hreflang="en">English</a></nav>')
         home, css, feed, locale = "../sl/index.html", "../assets/site.css", f"{SITE}/sl/feed.xml", "sl_SI"
-        foot = ('<p>© Matjaž Gruden. Kolumne so bile prvič objavljene v časniku Večer.</p>\n'
+        foot = ('<p>© Matjaž Gruden. Kolumne so bile prvič objavljene v slovenščini.</p>\n'
                 '<p class="follow"><a href="../sl/spremljanje.html">Spremljajte nova besedila (RSS ali e-pošta)</a></p>')
         js, skip = "../assets/site.js", "Skip to content"
     e = html.escape

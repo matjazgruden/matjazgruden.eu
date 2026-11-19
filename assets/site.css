@@ -175,3 +175,11 @@ footer.site .follow{margin:.4rem 0 0}
 .piece .vid{margin-top:1.6rem}
 .piece .vid+.vlinks{color:var(--muted)}
 .list .vlinks a{font:500 .9rem/1.4 var(--sans);color:var(--link);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.18em}
+/* Media */
+.list.media .sum{font:400 1rem/1.6 var(--serif);color:var(--ink);margin:.7rem 0 0;max-width:var(--measure)}
+.list.media .lang-tag{font-style:italic}
+.aud{display:block;width:100%;max-width:var(--measure);margin:.8rem 0 0}
+.piece .aud{margin-top:1.2rem}
+.transcript .prose p.q{color:var(--muted)}
+.transcript .spk{font:600 .92rem/1 var(--sans);color:var(--ink)}
+.translation .sep{color:var(--rule);margin:0 .4rem}
