@@ -6,7 +6,14 @@
 <description>Razgovori o demokraciji, Matjaž Gruden.</description>
 <language>sl</language>
 <atom:link href="https://matjazgruden.eu/sl/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 13 Nov 2026 08:00:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 23 Nov 2026 08:00:00 +0000</lastBuildDate>
+<item>
+<title>Dragi gospodarstveniki, razmislite še enkrat</title>
+<link>https://matjazgruden.eu/sl/clanki/novejse/dragi-gospodarstveniki-razmislite-se-enkrat.html</link>
+<guid isPermaLink="true">https://matjazgruden.eu/sl/clanki/novejse/dragi-gospodarstveniki-razmislite-se-enkrat.html</guid>
+<pubDate>Mon, 23 Nov 2026 08:00:00 +0000</pubDate>
+<description>Dragi gospodarstveniki, to besedilo namenjam vam. Ker vas cenim in se strinjam, da vas Slovenija potrebuje. Brez uspešnega gospodarstva ni…</description>
+</item>
 <item>
 <title>Srbska prihodnost za Evropo?</title>
 <link>https://matjazgruden.eu/sl/clanki/novejse/srbska-prihodnost-za-evropo.html</link>
@@ -209,13 +216,6 @@
 <guid isPermaLink="true">https://matjazgruden.eu/sl/clanki/2025/lov-na-cigane.html</guid>
 <pubDate>Mon, 28 Jul 2025 08:00:00 +0000</pubDate>
 <description>Naslov je namenoma provokativen. Izraz cigan je žaljivka, ki jo mnogi še vedno uporabljajo za pripadnike romske skupnosti. Ljudje, ki soljudi ne zmerjajo z…</description>
-</item>
-<item>
-<title>U, kakšen koncert</title>
-<link>https://matjazgruden.eu/sl/clanki/2025/u-kaksen-koncert.html</link>
-<guid isPermaLink="true">https://matjazgruden.eu/sl/clanki/2025/u-kaksen-koncert.html</guid>
-<pubDate>Tue, 15 Jul 2025 08:00:00 +0000</pubDate>
-<description>Moja najbližja sodelavka je Judinja. V Strasbourgu živi druga največja judovska skupnost v Franciji, takoj za Parizom.  Mojo sodelavko je danes strah, za njeno…</description>
 </item>
 </channel>
 </rss>

@@ -6,7 +6,14 @@
 <description>Conversations on democracy by Matjaž Gruden.</description>
 <language>en</language>
 <atom:link href="https://matjazgruden.eu/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 13 Nov 2026 08:00:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 23 Nov 2026 08:00:00 +0000</lastBuildDate>
+<item>
+<title>Dear Business Leaders, Think Again</title>
+<link>https://matjazgruden.eu/columns/recent/dear-business-leaders-think-again.html</link>
+<guid isPermaLink="true">https://matjazgruden.eu/columns/recent/dear-business-leaders-think-again.html</guid>
+<pubDate>Mon, 23 Nov 2026 08:00:00 +0000</pubDate>
+<description>Dear business leaders, this text is addressed to you. Because I value you and agree that Slovenia needs you. Without a successful economy…</description>
+</item>
 <item>
 <title>A Serbian Future for Europe?</title>
 <link>https://matjazgruden.eu/columns/recent/a-serbian-future-for-europe.html</link>
@@ -209,13 +216,6 @@
 <guid isPermaLink="true">https://matjazgruden.eu/columns/2025/gypsy-hunt.html</guid>
 <pubDate>Mon, 28 Jul 2025 08:00:00 +0000</pubDate>
 <description>The title is deliberately provocative. The word cigan, “Gypsy,” is a slur that many still use for members of the Roma community. People who don’t call their…</description>
-</item>
-<item>
-<title>Oh, What a Concert</title>
-<link>https://matjazgruden.eu/columns/2025/oh-what-a-concert.html</link>
-<guid isPermaLink="true">https://matjazgruden.eu/columns/2025/oh-what-a-concert.html</guid>
-<pubDate>Tue, 15 Jul 2025 08:00:00 +0000</pubDate>
-<description>My closest colleague is Jewish. Strasbourg has the second-largest Jewish community in France, after Paris. Today my colleague is afraid, for her safety and the…</description>
 </item>
 </channel>
 </rss>
